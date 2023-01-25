@@ -1,0 +1,27 @@
+.column{
+    column-width: 100px;
+    text-align: justify;
+    column-rule: 3px dotted red;
+}
+h3{
+    column-span: all;
+    text-align: center;
+}
+.pagination a{
+    widows: 50px;
+    color: aqua;
+    float: left;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 30%;
+    transition: 2s;
+    border: 2px solid black;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgba(1, 1, 116, 0.59);
+    color: #fff;
+}
+.pagination a:hover:not(.active){
+    background-color: dimgray;
+}
